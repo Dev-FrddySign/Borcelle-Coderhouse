@@ -18,13 +18,13 @@ Pagina de e-comerce dedida a satisfacer las necesidades del usuario realizando e
 
 ## Deployment
 
- - [Deploy]()
+ - [Deploy](https://borcelle-coderhouse.vercel.app/)
 
 
 
 ## Enlaces de interes
 
- - [GitHub Pages]()
+ - [GitHub Pages](https://github.com/Dev-FrddySign/Borcelle-Coderhouse)
  - [Linkedin](https://www.linkedin.com/in/freddy-saldivia-15b40872/)
 
 
