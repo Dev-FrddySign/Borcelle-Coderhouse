@@ -1,8 +1,18 @@
 import React from 'react'
+import './Rewards.css'
 
 const Rewards = () => {
   return (
-    <div>Rewards</div>
+    <div>
+      <>
+        <main className='main-rewards'>
+          <div>hello word</div>
+        </main>
+        <aside>
+          
+        </aside>
+      </>
+    </div>
   )
 }
 
