@@ -1,0 +1,42 @@
+.card-container {
+    width: 100%;
+}
+
+.card-product {
+    height: 50px;
+    width: 50px;
+}
+
+.img-product {
+    width: 90px;
+    margin-top: 20px;
+}
+
+.btn-img {
+    margin-left: 30px;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+}
+
+.btn-img::before{
+    margin-left: auto;
+}
+
+.btn-img::after,
+.btn-img::before{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+}
+
+.btn-img:hover::after,
+.btn-img:hover::before{
+    width: 100%;
+}

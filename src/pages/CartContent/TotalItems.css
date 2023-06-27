@@ -1,0 +1,8 @@
+.icon-cart-nmro{
+    background: rgb(255, 2, 2);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    transform: translate(15px,-15px);
+    padding: auto;
+}

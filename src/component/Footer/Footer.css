@@ -1,0 +1,37 @@
+.footerInfo {
+    display: flex;
+    margin: 0 150px;
+    justify-content: space-around;
+}
+
+.footInfo1,
+.footInfo2,
+.footInfo3,
+.footInfo4,
+li {
+    list-style: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.li,
+.titulo {
+    color: #474545;
+    text-transform: uppercase;
+}
+
+.redesSociales {
+    margin-bottom: -40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    height: 37%;
+    width: 100%;
+    margin-top: 100px;
+    /*background-position-x: -100px;
+    bottom: 0;
+    z-index: 1;*/
+}

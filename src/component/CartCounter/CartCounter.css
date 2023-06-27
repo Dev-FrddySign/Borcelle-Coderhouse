@@ -1,0 +1,11 @@
+.btn-shp-hook-s-r {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px,-100px)
+}
+
+.btn-restar {
+    margin-right: 5px;
+}

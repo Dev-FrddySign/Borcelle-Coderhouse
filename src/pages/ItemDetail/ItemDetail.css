@@ -1,0 +1,50 @@
+.btn-volver {
+    margin-left: 30px;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.btn-volver::before{
+    margin-left: auto;
+}
+
+.btn-volver::after,
+.btn-volver::before{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+}
+
+.btn-volver:hover::after,
+.btn-volver:hover::before{
+    width: 100%;
+}
+
+.loadtwo-pg{
+    height: 400px;
+    width: 600px;
+}
+
+.card-container-head{
+    margin-left: 30px
+}
+
+.card-product-id{
+    text-align: center;
+}
+
+.card-img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
