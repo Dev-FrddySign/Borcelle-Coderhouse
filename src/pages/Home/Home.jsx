@@ -21,8 +21,8 @@ const Home = () => {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>El mejor cafe</h3>
+              <p>Sal de la rutina y ven a Borcelle y disfruta del mejor cafe de chile.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -32,8 +32,8 @@ const Home = () => {
               alt="Second slide"
             />
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Ven y disfruta</h3>
+              <p>Disfruta de tu cafe en nuestras instalaciones.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -43,9 +43,9 @@ const Home = () => {
               alt="Third slide"
             />
             <Carousel.Caption>
-              <h3>Third slide label</h3>
+              <h3>La prioridad</h3>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                Nuestro lema es "El mejor cafe la mejor atencion".
               </p>
             </Carousel.Caption>
           </Carousel.Item>
