@@ -44,8 +44,10 @@ const Footer = () => {
                             <Icon id='icon' className=' animate__animated animate__pulse' path={mdiInstagram} size={2} />
                             <Icon id='icon' className=' animate__animated animate__pulse' path={mdiFacebook} size={2} />
                             <Icon id='icon' className=' animate__animated animate__pulse' path={mdiTwitter} size={2} />
-                            <Icon id='icon' className=' animate__animated animate__pulse' path={mdiLinkedin} size={2} /> <br />
-                            Accesibilidad web | Aviso de Privacidad | Condiciones de uso | Mapa de sitio | Preferencia sobre cookies ©2023
+                            <Icon id='icon' className=' animate__animated animate__pulse' path={mdiLinkedin} size={2} />
+                        </div>
+                        <div>
+                        <p className='footer-option d-flex flex-column-reverse'>Accesibilidad web | Aviso de Privacidad | Condiciones de uso | Mapa de sitio | Preferencia sobre cookies ©2023</p>
                         </div>
                     </p>
                 </div>

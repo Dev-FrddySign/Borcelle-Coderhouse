@@ -22,7 +22,7 @@ const Home = () => {
             />
             <Carousel.Caption>
               <h3>El mejor cafe</h3>
-              <p>Sal de la rutina y ven a Borcelle y disfruta del mejor cafe de chile.</p>
+              <p>Sal de la rutina, ven a Borcelle y disfruta del mejor cafe de chile.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>

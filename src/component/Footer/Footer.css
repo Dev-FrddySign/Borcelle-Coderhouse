@@ -21,9 +21,13 @@ li {
 }
 
 .redesSociales {
-    margin-bottom: -40px;
+    margin-bottom: -10px;
     cursor: pointer;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
 }
 
 .footer {
@@ -31,7 +35,8 @@ li {
     height: 37%;
     width: 100%;
     margin-top: 100px;
-    /*background-position-x: -100px;
-    bottom: 0;
-    z-index: 1;*/
+}
+
+.footer-option{
+    margin-top: 10px;
 }

@@ -7,15 +7,14 @@ import Menu from '../pages/Menu/Menu';
 import Rewards from '../pages/Rewards/Rewards';
 import Gif from '../pages/Gif/GifaCoffee';
 import Coffee from '../pages/Coffee/Coffee';
-import AboutUs from '../pages/AboutUs/AboutUs';
-import Contact from '../pages/Contact/Contact';
+import Nosotros from '../pages/AboutUs/Nosotros';
 import CartContent from '../pages/CartContent/CartContent';
 import UserAndPassword from '../pages/Login/UserAndPassword';
-import AreaDePago from '../pages/AreaDePago/AreaDePago';    
 import IconLocation from '../component/iconlocation/IconLocation';
 import CollapNavbar from '../component/navbar/CollapNavbar';
 import Footer from '../component/Footer/Footer';
 import Dataprovider from '../component/Context/DataContext';
+import Contacto from '../pages/Contacto/Contacto';
 
 
 
@@ -48,11 +47,10 @@ const Rutas = () => {
             <Route path='/Rewards' element={<Rewards/>}/>
             <Route path='/Gif' element={<Gif/>}/>
             <Route path='/Coffee' element={<Coffee/>}/>
-            <Route path='/AboutUs' element={<AboutUs/>}/>
-            <Route path='/Contact' element={<Contact/>}/>
+            <Route path='/Nosotros' element={<Nosotros/>}/>
+            <Route path='/Contacto' element={<Contacto/>}/>
             <Route path='/IconLocation' element={<IconLocation/>}/>
             <Route path='/CartContent' element={<CartContent/>}/>
-            <Route path='/AreaDePago' element={<><AreaDePago/></>}/>
             <Route path='/UserAndPassword' element={<UserAndPassword/>}/>
         </Routes>
         <Footer />

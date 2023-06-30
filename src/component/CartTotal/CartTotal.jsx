@@ -2,16 +2,20 @@ import './CartTotal.css'
 import { useContext } from "react";
 import { dataContext } from "../../component/Context/DataContext";
 
-const CartTotal = () => {
+const CartTotal = ({total}) => {
     const { cart } = useContext(dataContext);
 
-    const total = cart.reduce((suma, item) => {
-        return suma + item.precio * item.quanty
-    }, 0);
+    const calculateTotal = () => {
+        return cart.reduce((suma, item) => {
+          return suma + item.precio * item.quanty;
+        }, 0);
+};
+
+    const totalPrice = total !== undefined ? total : calculateTotal();
 
     return (
-            <div className="info-total">
-                <h3> Total a pagar $ {total} </h3>
+            <div>
+                <p>Total: {totalPrice}</p>
             </div>
     );
 };

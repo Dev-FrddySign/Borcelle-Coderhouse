@@ -10,7 +10,7 @@ const Totaltems = () => {
         return acc + el.quanty }, 0);
 
     return (
-        <div className='icon-cart-nmro'>{itemQuanty }</div>
+        <div className='icon-cart-nmro'>{itemQuanty}</div>
     )
 }
 
